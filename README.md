@@ -26,4 +26,18 @@ A simple Kanban-style task management web app where you can add tasks, drag them
 ---
 
 ## 📂 Project Structure
+📁 Kanban-Board
+├── index.html
+├── style.css
+└── script.js
+
+🧠 Working Logic (Short Explanation)
+
+-On add → Task goes to To Do
+
+-Drag event moves element between columns
+
+-Every change triggers memory update via LocalStorage
+
+-Delete removes task + updates count + saves state again
 
